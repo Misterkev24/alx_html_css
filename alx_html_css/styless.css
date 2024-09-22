@@ -1,0 +1,178 @@
+   body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+        .header {
+            background: url('CSS\ Advanced/') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+            position: relative;
+        }
+        .header h1 {
+            font-size: 4em;
+            margin: 0;
+        }
+        .header p {
+            font-size: 1.5em;
+            margin: 20px 0;
+        }
+        .header .btn {
+            background-color: #a64af7;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 25px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        .nav {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        .nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 1em;
+        }
+        .section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .section p {
+            font-size: 1.2em;
+            color: #a64af7;
+        }
+        .profiles {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .profile {
+            text-align: center;
+            color: white;
+        }
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        .testimonial {
+            background-color: #a64af7;
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .testimonial img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+        .tutorials {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .tutorials h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .tutorials .cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 200px;
+            padding: 20px;
+            text-align: left;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .card h3 {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        .card p {
+            font-size: 0.9em;
+            color: #666;
+        }
+        .card .author {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .card .author img {
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+        .membership {
+            background-color: #1a1a2e;
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .membership h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .membership .features {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .feature {
+            text-align: center;
+        }
+        .feature i {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .faq {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .faq h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .faq .questions {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .question {
+            text-align: left;
+            width: 200px;
+        }
+        .question h3 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        .footer {
+            background-color: #1a1a2e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .footer .socials {
+            margin: 20px 0;
+        }
+        .footer .socials a {
+            color: white;
+            margin: 0 10px;
+            font-size: 1.5em;
+            text-decoration: none;
+        }
